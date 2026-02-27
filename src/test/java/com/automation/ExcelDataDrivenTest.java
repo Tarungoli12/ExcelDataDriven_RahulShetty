@@ -28,7 +28,7 @@ public class ExcelDataDrivenTest {
         //connect to Excel file
         XSSFWorkbook workbook = new XSSFWorkbook(new FileInputStream("C://Users//280713//Downloads//ExcelDataDriven.xlsx"));
 
-        //switch to first Excel sheet
+        //switch to first Excel sheet in Excel file
         XSSFSheet sheet = workbook.getSheetAt(0);
 
         //get not of rows in sheet
